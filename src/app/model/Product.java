@@ -56,7 +56,7 @@ public class Product {
         Date date = new Date();
         try {
             date = formatter.parse(dateString);
-            System.out.println("Parsed date: " + date);
+//            System.out.println("Parsed date: " + date);
         } catch (ParseException e) {
             System.out.println("Invalid date format: " + dateString);
         }

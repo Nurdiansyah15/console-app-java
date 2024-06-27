@@ -13,6 +13,5 @@ public class Main {
         ProductService service = new FileProductService(fileHandler);
         InputHandler input = new InputHandler();
         new ConsoleApp(service, input).run();
-
     }
 }
